@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d66a5508-9195-4c63-972a-496bd5d9dded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,9 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="netty_lecture" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -236,7 +238,7 @@
       <workItem from="1577359526398" duration="2047000" />
       <workItem from="1577407392880" duration="626000" />
       <workItem from="1578016257209" duration="10944000" />
-      <workItem from="1578037918464" duration="1506000" />
+      <workItem from="1578037918464" duration="2304000" />
     </task>
     <servers />
   </component>
