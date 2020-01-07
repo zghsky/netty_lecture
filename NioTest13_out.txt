@@ -1,2 +1,9 @@
 nihao
 hello
+你你你你你你
+
+Unicode是一种编码方式, 而UTF则是一种存储方式; UTF-8是Unicode的实现方式之一
+
+Zero Width No-Break Space, 0xFEFF(BE), 0xFFFE(LE)
+
+BOM (Byte Order Mark), 字节序标记
