@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d66a5508-9195-4c63-972a-496bd5d9dded" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/zerocopy/NewIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/zerocopy/OldIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/zerocopy/OldIOServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NioTest13_in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NioTest13_in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NioTest13_out.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/nio/NioTest13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shengsiyuan/nio/NioTest13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/shengsiyuan/nio/NioTest13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/shengsiyuan/nio/NioTest13.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,7 @@
       <recent name="E:\IdeaProjects\netty_lecture\src\main\java\com\shengsiyuan\netty\sixthexample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyChatClient">
+  <component name="RunManager" selected="Application.OldIOClient">
     <configuration name="MyChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.netty.thirdexample.MyChatClient" />
       <module name="netty_lecture.main" />
@@ -140,32 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioTest12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.nio.NioTest12" />
-      <module name="netty_lecture.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shengsiyuan.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NioTest13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.nio.NioTest13" />
-      <module name="netty_lecture.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shengsiyuan.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NioTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.nio.NioTest2" />
       <module name="netty_lecture.main" />
@@ -179,13 +153,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OldIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.zerocopy.OldIOClient" />
+      <module name="netty_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shengsiyuan.zerocopy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OldIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.zerocopy.OldIOServer" />
+      <module name="netty_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shengsiyuan.zerocopy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OldIOClient" />
+        <item itemvalue="Application.OldIOServer" />
         <item itemvalue="Application.MyChatClient" />
         <item itemvalue="Application.MyChatServer" />
         <item itemvalue="Application.NioTest2" />
-        <item itemvalue="Application.NioTest13" />
-        <item itemvalue="Application.NioTest12" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +252,7 @@
       <workItem from="1577407392880" duration="626000" />
       <workItem from="1578016257209" duration="10944000" />
       <workItem from="1578037918464" duration="2304000" />
-      <workItem from="1578358425797" duration="13849000" />
+      <workItem from="1578358425797" duration="17302000" />
     </task>
     <servers />
   </component>
@@ -280,26 +280,26 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="529" y="183" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1578037925951" />
-    <state width="1799" height="292" key="GridCell.Tab.0.bottom" timestamp="1578373832947">
+    <state width="1799" height="292" key="GridCell.Tab.0.bottom" timestamp="1578386922016">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1431" height="206" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1578037836318" />
-    <state width="1799" height="292" key="GridCell.Tab.0.bottom/0.0.1842.1080@0.0.1842.1080" timestamp="1578373832947" />
-    <state width="1799" height="292" key="GridCell.Tab.0.center" timestamp="1578373832947">
+    <state width="1799" height="292" key="GridCell.Tab.0.bottom/0.0.1842.1080@0.0.1842.1080" timestamp="1578386922016" />
+    <state width="1799" height="292" key="GridCell.Tab.0.center" timestamp="1578386922016">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1431" height="206" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1578037836317" />
-    <state width="1799" height="292" key="GridCell.Tab.0.center/0.0.1842.1080@0.0.1842.1080" timestamp="1578373832947" />
-    <state width="1799" height="292" key="GridCell.Tab.0.left" timestamp="1578373832947">
+    <state width="1799" height="292" key="GridCell.Tab.0.center/0.0.1842.1080@0.0.1842.1080" timestamp="1578386922016" />
+    <state width="1799" height="292" key="GridCell.Tab.0.left" timestamp="1578386922016">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1431" height="206" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1578037836316" />
-    <state width="1799" height="292" key="GridCell.Tab.0.left/0.0.1842.1080@0.0.1842.1080" timestamp="1578373832947" />
-    <state width="1799" height="292" key="GridCell.Tab.0.right" timestamp="1578373832947">
+    <state width="1799" height="292" key="GridCell.Tab.0.left/0.0.1842.1080@0.0.1842.1080" timestamp="1578386922016" />
+    <state width="1799" height="292" key="GridCell.Tab.0.right" timestamp="1578386922016">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1431" height="206" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1578037836317" />
-    <state width="1799" height="292" key="GridCell.Tab.0.right/0.0.1842.1080@0.0.1842.1080" timestamp="1578373832947" />
+    <state width="1799" height="292" key="GridCell.Tab.0.right/0.0.1842.1080@0.0.1842.1080" timestamp="1578386922016" />
     <state width="1342" height="266" key="GridCell.Tab.1.bottom" timestamp="1576635190879">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
