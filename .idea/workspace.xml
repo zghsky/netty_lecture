@@ -80,7 +80,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jvm_lecture" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/shengsiyuan/nio" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -302,10 +302,11 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="216" y="13" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1576843850190" />
-    <state x="450" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1578037918908">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state x="562" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1578358426914">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="450" y="237" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1578037918908" />
+    <state x="562" y="296" key="com.intellij.ide.util.TipDialog/0.0.1842.1080@0.0.1842.1080" timestamp="1578358426914" />
     <state x="174" y="43" key="new project wizard" timestamp="1577248358072">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
