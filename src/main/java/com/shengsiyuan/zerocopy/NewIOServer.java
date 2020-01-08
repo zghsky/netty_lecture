@@ -14,6 +14,7 @@ public class NewIOServer {
         InetSocketAddress address = new InetSocketAddress(8899);
 
         ServerSocketChannel server = ServerSocketChannel.open();
+        server.configureBlocking(true);
         ServerSocket socket = server.socket();
         // 让地址处于超时情况下可再用, bind 之前调用此方法 bind之后调用是行为未定义的
         socket.setReuseAddress(true);
@@ -27,7 +28,8 @@ public class NewIOServer {
 
             int len = 0;
 
-            while ((len = channel.read(buffer)) != -1) {
+            while (len != -1) {
+                len = channel.read(buffer);
                 buffer.rewind();
             }
         }

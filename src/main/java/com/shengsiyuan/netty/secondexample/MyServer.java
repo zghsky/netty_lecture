@@ -13,6 +13,7 @@ public class MyServer {
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 
         try {
+            // 辅助类, 用来设定相关的属性和参数
             ServerBootstrap serverBootstrap = new ServerBootstrap();
             serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class).
                     childHandler(new MyServerInitializer());
